@@ -21,9 +21,15 @@ Log parser is done by parsing unstructured logs which are free-text log entries 
 Note that the parameter(s) are abstracted as asterisk(s) in a log key. These metric values reﬂect the underlying system state and performance status. Values of certain parameters may serve as identiﬁers for a particular execution sequence, such as block_id in a HDFS log. These identiﬁers can group log entries together as singlethread sequential sequences. The thread sequences identified are grouped by session and in this way, we can obtain a list of array. Each array corresponds to a session, which is a sequence of log keys. Each session group is can be seen as a life cycle of one block or a VM instance respectively. In the figure 3 it is show a diagram to explain the previous workflow
 
 This log parser method is called "Spell", you can fin more details on this paper below and repo. Additionally, you can find other methods to parse the logs there.
+
 https://www.cs.utah.edu/~lifeifei/papers/spell.pdf
+
 https://github.com/logpai/logparser
 
+<a id="1">[1]</a> 
+Min, Du. (2016). 
+Spell: Streaming Parsing of System Event Logs. 
+2016 IEEE 16th International Conference on Data Mining (ICDM)
 
 # 3.2 Feature Representation
 
@@ -50,10 +56,10 @@ That project is explained in the following video
 
 https://www.youtube.com/watch?v=0J2BM-9gzgQ
 
-In this paper you can find more information in regard to z-score deviation loss[[1]]
+In this paper you can find more information in regard to z-score deviation loss[[2]]
 https://arxiv.org/pdf/1911.08623.pdf
 
-<a id="1">[1]</a> 
+<a id="2">[2]</a> 
 Pang, Guansong. (2019). 
 Deep Anomaly Detection with Deviation Networks. 
 In The 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’19), August 4–8, 2019, Anchorage, AK, USA. ACM, New York, NY, USA
@@ -65,7 +71,7 @@ DevNet-LSTM | Semi-supervised | 97.17% | 96.47% | 97.32% |
 DeepLog | Unsupervised | 95.02% | 93.76% | 94.32% | 
 Log Anomaly | Unsupervised | 96.01% | 98.02% | 97.01% | 
 
-By labelling 12% out of the anomalies, we can beat the best unsupervised methods by using a z-score deviation loss [[1]] 
+By labelling 12% out of the anomalies, we can beat the best unsupervised methods by using a z-score deviation loss [[2]] 
 
 
 
