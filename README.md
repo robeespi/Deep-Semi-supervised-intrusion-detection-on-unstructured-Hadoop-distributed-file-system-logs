@@ -22,12 +22,12 @@ Note that the parameter(s) are abstracted as asterisk(s) in a log key. These met
 
 This log parser method is called "Spell", you can fin more details on this paper below and repo. Additionally, you can find other methods to parse the logs there.
 
-https://www.cs.utah.edu/~lifeifei/papers/spell.pdf
+
 
 https://github.com/logpai/logparser
 
 <a id="1">[1]</a> 
-Min, Du. (2016). 
+https://www.cs.utah.edu/~lifeifei/papers/spell.pdf Min, Du. (2016). 
 Spell: Streaming Parsing of System Event Logs. 
 2016 IEEE 16th International Conference on Data Mining (ICDM)
 
@@ -57,10 +57,10 @@ That project is explained in the following video
 https://www.youtube.com/watch?v=0J2BM-9gzgQ
 
 In this paper you can find more information in regard to z-score deviation loss[[2]]
-https://arxiv.org/pdf/1911.08623.pdf
+
 
 <a id="2">[2]</a> 
-Pang, Guansong. (2019). 
+https://arxiv.org/pdf/1911.08623.pdf Pang, Guansong. (2019). 
 Deep Anomaly Detection with Deviation Networks. 
 In The 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’19), August 4–8, 2019, Anchorage, AK, USA. ACM, New York, NY, USA
 
