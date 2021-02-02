@@ -7,7 +7,7 @@ This piece of work introduces a semi-supervised Long Short Term memory approach 
 # 2. Dataset
 
 HDFS log data set.
-It is generated through running Hadoop-based map-reduce jobs on more than 200 Amazon’s EC2 nodes, and labeled by Hadoop domain experts. Among 11, 197, 954 log entries being collected, about 2.9% are abnormal, including events such as “write exceptionç2.
+It is generated through running Hadoop-based map-reduce jobs on more than 200 Amazon’s EC2 nodes, and labeled by Hadoop domain experts. Among 11, 197, 954 log entries being collected, about 2.9% are abnormal, including events such as “write exception".
 
 # 3. Solution Components
 
