@@ -44,15 +44,28 @@ Each cell maintains a hidden vector (previous output) and a cell state vector (p
 
 # 4. Results
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+This repo is a piece of the research project in Deep Anomaly detection on unstructured system logs (DevNet-LSTM) which uses a z-score deviation loss as empirical loss function.
+
+That project is explained in the following video
+
+https://www.youtube.com/watch?v=0J2BM-9gzgQ
+
+In this paper you can find more information in regard to z-score deviation loss[[1]]
+
+<a id="1">[1]</a> 
+Pang, Guansong. (2019). 
+Deep Anomaly Detection with Deviation Networks. 
+In The 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’19), August 4–8, 2019, Anchorage, AK, USA. ACM, New York, NY, USA
 
 Model | #Supervision settings | #Precision | #Recall | #F1 | 
 --- | --- | --- | --- | --- |
-LSTM Solution | 301 | 301 | 283 | 283 | 
-DeepLog | 301 | 301 | 283 | 283 | 
-DeepLog | 301 | 301 | 283 | 283 | 
-DeepLog | 301 | 283 | 283 | 283 | 
+LSTM (repo solution) | Semi-supervised | 88.33% | 98.87% | 93.30% | 
+DevNet-LSTM | Semi-supervised | 97.17% | 96.47% | 97.32% | 
+DeepLog | Unsupervised | 95.02% | 93.76% | 94.32% | 
+Log Anomaly | Unsupervised | 96.01% | 98.02% | 97.01% | 
+
+By labelling 12% out of the anomalies, we can beat the best unsupervised methods by using a z-score deviation loss [[1]] 
+
+
 
 
