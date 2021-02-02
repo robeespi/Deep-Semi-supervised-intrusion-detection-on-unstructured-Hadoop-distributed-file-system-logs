@@ -44,8 +44,12 @@ Each cell maintains a hidden vector (previous output) and a cell state vector (p
 
 # 4. Results
 
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
 Model | #Precision | #Recall | #F1 | 
---- | --- | --- | --- |--- |--- |--- |-
+--- | --- | --- | --- |
 LSTM Solution | 301 | 283 | 283 | 
 DeepLog | 301 | 283 | 283 | 283 | 
 DeepLog | 301 | 283 | 283 | 283 | 
