@@ -51,6 +51,7 @@ That project is explained in the following video
 https://www.youtube.com/watch?v=0J2BM-9gzgQ
 
 In this paper you can find more information in regard to z-score deviation loss[[1]]
+https://arxiv.org/pdf/1911.08623.pdf
 
 <a id="1">[1]</a> 
 Pang, Guansong. (2019). 
