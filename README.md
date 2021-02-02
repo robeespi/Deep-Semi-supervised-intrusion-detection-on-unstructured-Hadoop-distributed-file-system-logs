@@ -1,4 +1,4 @@
-# 1. Deep-Semi-supervised-intrusion-detection-on-unstructured-system-logs
+# 1. Deep-Semi-supervised-intrusion-detection-on-Hadoop-distributed-file-system-log
 
 Deep learning has been applied in cybersecurity domain, however limited work has been done to detect intrusion on unstructured system logs. Due to the prohibitive cost of large-scale labeled anomaly data, the solution is a semi-supervised approach by labelling a few suspicious logs. 
 
