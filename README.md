@@ -72,7 +72,7 @@ DeepLog | Unsupervised | 95.02% | 93.76% | 94.32% |
 Log Anomaly | Unsupervised | 96.01% | 98.02% | 97.01% | 
 
 By labelling 12% out of the anomalies, we can beat the best unsupervised methods by using a z-score deviation loss [[2]] 
-
+DeepLog and Log Anomaly performance corresponds to the replication results, paper results are similar, but not equal.
 
 
 
