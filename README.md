@@ -1,7 +1,7 @@
 # 1. Deep-Semi-supervised-intrusion-detection-on-Hadoop-distributed-file-system-log
 
-Deep learning has been applied in cybersecurity domain, however limited work has been done to detect intrusion on unstructured system logs. Due to the prohibitive cost of large-scale labeled anomaly data, the solution is a semi-supervised approach by labelling a few suspicious logs. 
-<p align=center>
+<p align=center> Deep learning has been applied in cybersecurity domain, however limited work has been done to detect intrusion on unstructured system logs. Due to the prohibitive cost of large-scale labeled anomaly data, the solution is a semi-supervised approach by labelling a few suspicious logs. 
+
 
 This piece of work introduces a semi-supervised Long Short Term memory approach to overcome these challenges. LSTM neural network can learn an intermediate representation of sequential data from unstructured system logs and leverage a few labeled examples to detect anomalies. Extensive experiments and results on HDFS logs dataset shows that the proposed model reach state of art by leveraging only 12% of the anomalies from the anomalies training set as labeled example. 
 
